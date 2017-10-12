@@ -82,9 +82,9 @@
     "warning": "~3.0.0"
   },
   "devDependencies": {
+    "antd-tools": "git+https://github.com/Zomato/antd-tools.git",
     "@types/react": "^15.0.38",
     "@types/react-dom": "~0.14.18",
-    "antd-tools": "~2.1.0",
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.0",
     "babel-plugin-import": "^1.0.0",
