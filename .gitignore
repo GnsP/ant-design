@@ -30,9 +30,8 @@ config/base.yaml
 /coverage
 yarn.lock
 package-lock.json
-components
-docs
-scripts
-site
-tests
+components/**/*.js
+components/**/*.jsx
+!components/**/__tests__/*.js
+!components/**/__tests__/*.js.snap
 /.history
