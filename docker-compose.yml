@@ -1,0 +1,10 @@
+version: '3'
+services:
+  antd:
+    container_name: antd_container
+    build: .
+    image: antd
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/app/
