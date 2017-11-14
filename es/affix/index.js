@@ -20,8 +20,8 @@ import addEventListener from "rc-util/es/Dom/addEventListener";
 import classNames from 'classnames';
 import shallowequal from 'shallowequal';
 import omit from 'omit.js';
-import getScroll from '../_util/getScroll';
-import { throttleByAnimationFrameDecorator } from '../_util/throttleByAnimationFrame';
+import getScroll from "../_util/getScroll";
+import { throttleByAnimationFrameDecorator } from "../_util/throttleByAnimationFrame";
 function getTargetRect(target) {
     return target !== window ? target.getBoundingClientRect() : { top: 0, left: 0, bottom: 0 };
 }

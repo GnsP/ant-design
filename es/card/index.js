@@ -24,8 +24,8 @@ var __rest = this && this.__rest || function (s, e) {
 import React, { Component, Children } from 'react';
 import classNames from 'classnames';
 import addEventListener from "rc-util/es/Dom/addEventListener";
-import Grid from './Grid';
-import { throttleByAnimationFrameDecorator } from '../_util/throttleByAnimationFrame';
+import Grid from "./Grid";
+import { throttleByAnimationFrameDecorator } from "../_util/throttleByAnimationFrame";
 
 var Card = function (_Component) {
     _inherits(Card, _Component);

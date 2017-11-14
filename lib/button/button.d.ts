@@ -13,6 +13,7 @@ export interface ButtonProps {
     onClick?: React.FormEventHandler<any>;
     onMouseUp?: React.FormEventHandler<any>;
     onMouseDown?: React.FormEventHandler<any>;
+    onMouseLeave?: React.FormEventHandler<any>;
     loading?: boolean | {
         delay?: number;
     };
