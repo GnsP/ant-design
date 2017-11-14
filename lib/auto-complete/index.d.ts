@@ -12,6 +12,7 @@ export interface InputProps {
 }
 export declare type ValidInputElement = HTMLInputElement | HTMLTextAreaElement | React.ReactElement<InputProps>;
 export interface AutoCompleteProps extends AbstractSelectProps {
+    showArrow?: boolean;
     value?: SelectValue;
     defaultValue?: SelectValue;
     dataSource: DataSourceItemType[];
