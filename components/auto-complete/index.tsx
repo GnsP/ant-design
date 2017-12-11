@@ -6,7 +6,7 @@ import Input from '../input';
 import InputElement from './InputElement';
 
 export interface DataSourceItemObject { value: string; text: string; }
-export type DataSourceItemType = string | DataSourceItemObject;
+export type DataSourceItemType = string | DataSourceItemObject | JSX.Element;
 
 export interface InputProps {
   onChange?: React.FormEventHandler<any>;

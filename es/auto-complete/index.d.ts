@@ -5,7 +5,7 @@ export interface DataSourceItemObject {
     value: string;
     text: string;
 }
-export declare type DataSourceItemType = string | DataSourceItemObject;
+export declare type DataSourceItemType = string | DataSourceItemObject | JSX.Element;
 export interface InputProps {
     onChange?: React.FormEventHandler<any>;
     value: any;
